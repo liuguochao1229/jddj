@@ -1,0 +1,438 @@
+html,body{
+    height: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#shophead{
+    width: 100%;
+    height: 95px;
+    background: url('../../pictrue/bgh.jpg');
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 4px;
+    z-index: 1000;
+    .icon{
+        float: right;
+        font-size: 20px;
+        margin-top: 10px;
+        margin-right: 10px;
+        color: white;
+    }
+    img{
+        width: 55px;
+        height: 55px;
+        border: 2px solid white;
+        float: left;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .txt{
+        color: white;
+        font-size: 10px;
+        margin-left: 75px;
+        
+    }
+    .title{
+        margin-top: 10px;
+        font-size: 18px;
+        margin-left: 75px;
+        color: white;
+    }
+    .benifit{
+        width: 100%;
+        margin-top: 10px;
+        .ben_div1{
+            width: 95%;
+            margin-left: 10px;          
+            color: white;
+            p{
+                float: left;
+                font-size: 10px;
+                background: rgb(254,51,47);
+            }
+            .cli{
+                float: right;
+                background: none;
+            }
+            span{
+                font-size: 10px;
+                margin-left: 6px;
+            }
+        }
+        .ben_div2{
+            @extend .ben_div1;
+            margin-top: 5px;
+            p{
+                background: rgb(255,168,0)
+            }
+        }
+        .ben_div3{
+            @extend .ben_div1;
+            margin-top: 10px;
+            p{
+                background: white;
+                color: black;
+            }
+        }
+    }
+    .cen{
+        width: 100%;
+        height: 30px;
+        font-size: 15px;
+        text-align: center;
+        line-height:30px;
+        color: white;
+        span{
+            display: inline-block;
+            color: rgba(255,255,255,0.3)
+        }
+        
+    }
+    .cen2{
+        margin-top: 20px;
+    }
+    .mon{
+        width: 90%;
+        height: 80px;
+        border-radius: 5px;
+        margin-left: 20px;
+        margin-top: 10px;
+        border: 1px solid rgb(221,139,133);
+        background: white;
+        border-left: 3px solid rgb(255,87,87);
+        .mon_lef{
+            float: left;
+            width: 18%;
+            height: 100%;
+            text-align: center;
+            line-height:80px; 
+            font-size: 20px;
+            color: rgb(255,87,87);
+            border-right: 1px solid #999;
+        }
+        
+        .mon_rig{
+            float: right;
+            width: 50px;
+            color: white;
+            text-align: center;
+            line-height:20px; 
+            margin-top: 30px;
+            margin-right: 10px;
+            height: 20px;
+            background: rgb(255,87,87);
+            border-radius: 20px;
+        }
+       
+        .mon_txt{
+            font-size: 11px;
+            margin-left:75px; 
+            color: #666;  
+            margin-top: 6px;        
+        } 
+        .fir{
+            font-size: 14px;
+           
+            color: #333;
+        }
+    }
+    .assess{
+        width: 95%;
+        margin-left: 10px;
+        background: rgba(255,255,255,0.1);
+        .num{
+            width:95%;
+            margin-left: 10px;
+            border-bottom: 1px dotted rgba(255,255,255,0.3);
+            overflow: hidden; 
+            .num_left{
+                width:49%;
+                height:80px;
+                float: left;
+                text-align: center;
+                
+                .numb{
+                    margin-top: 16px;
+                    font-size: 27px;
+                    color: white;
+                    border-right: 1px solid white;
+                }
+                .str{
+                    font-size: 12px;
+                    color: white;
+                    border-right: 1px solid white;
+                }
+                .numb2{
+                    border: none;
+                }
+                .str2{
+                    border: none;
+                }
+            }
+        }
+        .hpt{
+            width: 95%;
+            margin-left: 10px;
+            color: white;
+            margin-top: 20px;
+            .hp{
+                width: 40px;
+                height: 40px;
+                background: white;
+                border-radius: 50%;
+                float: left;
+            }
+            .ht{
+                float: right;
+                font-size: 10px;
+            }
+            .hn{
+                margin-left: 50px;
+            }
+            .hs{
+                margin-left: 50px;
+                color: rgb(254,161,79)
+            }
+        }
+        .qwe{
+            width: 95%;
+            height: 40px;
+            border-bottom: 1px dotted rgba(255,255,255,0.3);
+            margin-left: 10px;
+            margin-top: 20px;
+            p{
+                float: left;
+                border: 1px solid white;
+                border-radius: 3px;
+                margin-left: 10px;
+                color: white;
+                text-align: center;
+                line-height:20px; 
+                font-size: 10px;
+            }
+            .icona{
+                border: none;
+                font-size: 30px;
+                margin-left:40px;
+            }
+        }
+        .last{
+            width: 100%;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            color: white;
+            
+        }
+        
+    }
+    .msg{
+        margin-top: 20px;
+        width: 95%;
+        margin-left: 10px;
+        background: rgba(255,255,255,0.1);
+        padding: 10px 0 20px 10px;
+        overflow: hidden;
+        p{
+            color: white;
+            font-size:16px; 
+            margin-top: 6px;
+        }
+        .msg_txt1{
+            float: left;
+        }
+        .msg_txt2{
+            float: right;
+        }
+    }
+    .footer{
+        width: 100%;
+        height: 50px;
+        margin-top: 40px;
+        background: white;
+        text-align: center;
+        color: #666;
+        position: fixed;
+        z-index: 100;
+        bottom: 0;
+    };
+}
+ul {
+    list-style: none;
+  }
+  .sear{
+    width:100%;
+    height: 40px;
+    background: rgb(234,234,234); 
+    overflow: hidden;
+    .bor{
+        width: 95%;
+        margin-left: 10px;
+        margin-top: 5px;
+        background: white;
+        height: 30px;
+        line-height:30px;
+        p{
+            float: left;
+            font-size: 20px;
+            margin-left: 20px;
+        } 
+        input{
+            outline: none;
+            border-style: none;
+            margin-left: 10px;
+        }
+    }
+   
+}
+
+#shop {
+overflow: hidden;
+width: 100%;
+height: 100%;
+display: flex;
+position: fixed;
+top: 140px;
+
+.left::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    height: 10px;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    background: rgba(0,0,0,0.2);
+}
+.left::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    border-radius: 0;
+    background: rgba(0,0,0,0.1);
+}
+.left {
+    width: 25%;
+    overflow: auto;
+    float: left;
+    background: #f8f8f8;
+    padding-bottom: 280px;
+
+    .showcli{
+        width: 100%;
+        height: 40px;
+        text-align: center;
+        line-height:40px;
+        font-size: 13px;
+        border-right:1px solid #ddd;
+        border-bottom:1px solid #ddd;
+        border-left: 3px solid #f8f8f8;
+        color: rgb(102,102,102);
+    }
+    ul{
+        .showc{
+            display: block;
+            width: 100%;
+            height: 40px;
+            color: #666;
+            background: white;
+            text-align: center;
+            border-left: 3px solid white;
+            line-height:40px; 
+            font-size: 10px;
+        }
+        .aborder {
+            color: #47b34f;
+            border-left-color:#47b34f;
+            border-right-color: #FFF;
+          }
+    }
+}
+.right {
+    width: 75%;
+    overflow: auto;
+    padding-bottom: 213px;
+    float:right;
+    }
+    .ctgtxt{
+        width: 100%;
+        height: 30px;
+        text-indent: 10px;
+        line-height: 30px;
+        color: #666;
+        font-size: 12px;
+        background: #f4f4f4;
+    }
+    .prod{
+        width: 100%;
+        height: 95px;
+        border-bottom: 1px solid #ddd;
+        a{
+            display: block;
+            width: 100%;
+            height: 100%;
+            text-decoration: none;
+            text-align:left !important;
+        }
+        img{
+            float: left;
+            width: 65px;
+            height: 65px;
+        }
+        .gd_right{
+            float: left;
+            width: 75%;
+            .title{
+                color: #333;
+                font-size: 14px;
+            }
+            p{
+                color: #666;
+                font-size: 10px;
+                margin-top: 3px;
+            }
+            .price{
+                margin-top: 10px;
+                color: rgb(255,52,52)
+            }
+            .btn{
+                float: right;
+                margin-right: 10px;
+                button{
+                    width: 20px;
+                    height: 20px;
+                    border-radius: 50%;
+                    border: 1px solid #ddd;
+                    background: white;
+                    text-align: center;
+                    line-height: 16px;
+                    font-size: 20px;
+                    color: #47b34f;
+                    outline: none;
+                }
+                span{
+                    font-size: 12px;
+                }
+            }
+            .pop_up{
+                width: 60%;
+                height: 100px;
+                text-align: center;
+                background: rgba(0,0,0,0.6);
+                position: absolute;
+                top: 25%;
+                margin-left: -20%;                
+                border-radius: 20px;
+
+                p{
+                    font-size: 16px;
+                    margin-top: 10px;
+                    color: white;
+                  }
+                  .pop_txt{
+                    margin-top: 20px;
+                    font-size: 16px;
+                  }
+              }
+        }
+    }
+    
+      
+}
+  
