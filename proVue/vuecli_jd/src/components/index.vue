@@ -2,7 +2,7 @@
     <div><!--首页-->
         <div id="head">
             <div class="top">
-                <span class="icon1"><i>&#xe609;</i></span> <span class="addr">弓箭坊40号</span> <span><i class="icon2">&#xe629;</i></span>
+                <span class="icon1"><i>&#xe609;</i></span> <span class="addr">新街口德基大厦</span> <span><i class="icon2">&#xe629;</i></span>
                 <div class="right">
                     <span><i>&#xe7f3;</i></span>
                     <span><i>&#xe60a;</i></span>
